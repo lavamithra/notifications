@@ -1,0 +1,53 @@
+/* Write your code here. */
+
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.error {
+  background-color: #ff0b37;
+}
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 290px;
+  height: 30px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+.logotext {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: white;
+  margin-left: 10px;
+}
+.containerCard {
+  height: 40px;
+  width: 190px;
+}
+
+.notifications {
+  font-family: "Roboto";
+}
